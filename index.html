@@ -1,13 +1,20 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>Les jardins partagés de Paris par Thibault Maroselli</title>
-  <link rel="stylesheet" href="jardins_partages.css">
-</head>
+<html lang ="fr">
+  <head>
+    <title>Les jardins partagés de Paris par Thibault. M</title>
+	<meta name="viewport" charset="utf-8" content="initial-scale=1.0">
+    <link rel="stylesheet" href="jardins_partages.css">
+  </head>
+  <body>
+  	<h1>Les jardins partagés à Paris</h1>
 
-<body>
-  	<script src="jquery-3.4.1.js"></script>
-	<script src="jardins_partages.js"></script>
-</body>
+  	<main id="main">
+    	<div id="myMap"></div>
+	</main>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuFfObvDjX3tYUMmDZSHXG78tHOFOsUq0&callback=initMap"
+    async defer></script>
+    <script src ="jquery-3.4.1.js"></script>
+	<script src ="jardins_partages.js"></script>
+ </body>
 </html>
