@@ -1,0 +1,7 @@
+git add (ajout des fichiers à l'index)
+
+git commit -m ("texte indiquant ou l'on se trouve") --> fermer le carton
+
+git push (pour envoyer en ligne le dépot local et donc mettre à jour git sur le projet)
+
+git status pour vérifier ou l'on en est!

@@ -1,13 +1,17 @@
-h1{
+h1, li{
 	text-align: center;
 }
 
- /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-#map {
+h1{
+	color: black;
+}
+
+/*Always set the map height explicitly to define the size of the div
+*element that contains the map. */
+#myMap {
 	/*border: 1px solid red;*/
 	margin: auto;
-	max-height: 70%;
+	max-height: 600px;
 	height: 600px;
 	max-width: 1000px;
 	width: 100%;
@@ -16,9 +20,25 @@ h1{
 
 /* Optional: Makes the sample page fill the window. */
 html, body {
+	color: black;
+	background-image: url('jpartage.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 	height: 100%;
 	margin: 0;
 	padding: 0;
 }
 
+#main{
+	margin: auto;
+	
+	background-color: rgba(255, 255, 255, 0.6);
+	max-width: 600px;
+	width: 100%;
+}
 
+#main ul li
+{
+	list-style-type: none;
+}
