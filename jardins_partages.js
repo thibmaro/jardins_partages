@@ -34,7 +34,7 @@ function initMap(){
         	});
 
 	        let infowindow = new google.maps.InfoWindow({
-	          content: nom + ' '+ result.records[i].fields.adresse:  
+	          content: nom + ' '+ result.records[i].fields.adresse 
 	        });
 		}
 
